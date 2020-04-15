@@ -1,0 +1,83 @@
+Driver and Vehicles Documents Authentication System
+----------------------------------------------------
+
+APR 13 2020
+------------
+| GROUP B5 |
+------------
+
+CONTENTS
+---------
+
+1 Abstract
+2 Introduction
+3 Objective
+4 Methadology
+5 Steps
+6 General User
+7 Police
+8 Result
+9 Scope
+10 Conclusion
+11 Reference
+12 Team
+
+
+
+1 Abstract:
+----------------------------
+Now a day’s population has become a major factor to be considered as a result the number of vehicle’s are growing by increasing problems of vehicle registration, license registration, emission testing and insurance validity for RTO departments and vehicle related documents verification by traffic police. RTO employees having lot of work burden of making registration, license issue, transfer etc., which requires lot of paper work. As a result people can’t get the things done in right time, which is the waste of time and energy. Similarly the vehicle owner sometimes forgets to carry the license, and forgets the insurance at the time of enquiry. This paper proposed an approach to solve such problems that is by storing all the information related to vehicle and driver at database by RTO administrator. And an android application is provided to traffic police to retrieve vehicle and license information. We can also add a provision to track a stolen vehicle in this case civil police plays an important role, since a web page will be provided to civil police in order to update the stolen status to the RTO database. This approach is also useful to penalize the offenders, who violate the traffic rules.
+
+2 Introduction:
+----------------------------
+In the current scenario, the key issue faced by commuters while travelling is to deal with the inefficiency and discrepancy in the traffic system and the people involved in managing the same. On being caught by the police, the commuter must submit his driving license, RC Book and/or other vehicle documents for verification. In case the commuter forgets/misplaces the documents, he is unnecessarily fined. In case a vehicle is booked for any traffic violations, the details are uploaded onto a website. The owner is not updated with this information. If he fails to check this website regularly, he may not be aware of any pending traffic violations on his vehicles. In case a vehicle is stolen, the owner must contact the nearest police station. The process to lodge a complaint and subsequent response is slow and inefficient. In this age of science and technology, where the internet is in the palm of everyone’s hands, a better system for managing the above process can be set up which would greatly reduce the burden on the daily commuters as we as the traffic police.
+
+3 Objectives:
+----------------------------
+The proposed system overcomes these issues in the current scenario by implementing a web server which uses a database to store, update and access the above mentioned documents with a user-friendly front end android application, tailored to the needs of the appropriate users. The application also allows users to report a stolen vehicle and check unpaid offences on his vehicle, all in the click of a button. The application for the police allows him to review earlier driving offences by the rider and also report any current offence committed by him. The police’s application generates a digital receipt avoiding any kind of unwanted tampering with the process.
+
+4 Methodology:
+----------------------------
+The proposed system has an android application designed using JAVA and XML with dedicated user interfaces for each of the actors on the scene. The android application connects to a webserver by making a HTTP request so that when the android application is executed, it connects the androiddevice to the PHP script. The PHP script fetches the data from the database, which is then encoded and sent to the device. This encoded data is then parsed and displayed on the android device.
+
+5 Steps involved are:
+----------------------------
+1. RTO registers the users with a driving license and provides a unique user id.
+2. They upload the necessary documents onto the drivers’ and the vehicles’ profiles.
+
+6 General User:
+----------------------------
+1. Signs in through the android application using the user id provided to him as authentication.
+2. Can view all the latest documents such as driving license, owned vehicle details,
+3. Can report stolen vehicle to notify the nearest police.
+4. Can check any unpaid offences on his vehicle.
+
+7 Police:
+----------------------------
+1. Signs in through the android application using the user id provided to him as authentication.
+2. Can enter a useridentityname to view the owner’s or vehicle’sdocuments.
+3. Can report any offences committed by the driver using the application And Fine the user on the basis of it.
+4. Receives reports about vehicles stolen under his jurisdiction.
+
+8 Results
+----------------------------
+The first important outcome of this project is the improved efficiency in traffic policing. The work and burden on the police is greatly reduced as they can now check validated vehicle and driver documents with just the click of a button on the application. It also paves way for an easier and better system for handling traffic related violations as the police can now book the vehicles on the road that are breaking the rules from within the application. Also, as the owner of the vehicle is updated with this information in real time, they can ensure that no fines are due for the vehicles they own.
+
+9 Scope for Future Work:
+----------------------------
+The proposed system can be further enhanced and greatly improved by adding new functionalities and in-app services. By integrating this system with the Google CloudMessaging (GCM) service, we could enable push notifications which would help notify orsend important updates to the police as well as the general users. Push notifications can be used to send stolen vehicle reports to the police as well as bookings or offences on avehicle to its owner. Also, location tracking (GPS) can be enabled and integrated intothe system which would open up a plethora of possibilities to expand the application, withtraffic updates and location-based vehicle tracking being a few. Addition services may be added such as in-app service for ambulance assistance where accidents can be quickly reported which would allow both the police and ambulance drivers to respond to the emergency more efficiently. Emergency contact alerts could be added where a user in distress could notify his near and dear ones about an emergency from within the application.
+
+10 Conclusion
+----------------------------
+This system also enables a simplified system for commuters to handle various vehicle documents as they now no longer have to worry about managing the hard copies of each. With every important document present as a soft copy in their mobiles, the commuters can now just show these to the police for verification. Along with all of the above mentioned benefits, the system now greatly helps vehicle owners lodge a stolen vehicle report from within the app. This can help notify the police in the nearby locality faster and help track the vehicle in a more efficient manner. This integrated system greatly improves efficiency and makes way for a better approach to manage the work of the traffic department. Thus, the major expected outcome of this project is to improve public welfare using the latest technologies.
+
+11 References
+-----------------------------
+https://stackoverflow.com/
+
+12 Project Done By:
+-----------------------------
+ Aniket Prasad 
+ Sk Saheel Haque 
+ Shubam Shaw
+ Anjali Kumari
