@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Hello World</title>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+
+        
+        //works like a class 
+
+        function Cars(car_brand,car_model,car_price){
+            this.car_brand = car_brand;
+            this.car_model = car_model;
+            this.car_price = car_price;
+            this.teslaAutoPilot = function(){
+                document.write(" Has Automatic driver <br> Car Brand: <br> "+car_brand+"<br>Car Model:<br>"+car_model+"<br>Car Price :<br>"+car_price);
+            }
+        }
+
+
+        var c1  = new Cars("Tesla","Model 3",35000);
+        c1.teslaAutoPilot();
+        
+
+
+    </script>
+
+</body>
+
+
+</html>
